@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 function RegisterPage() {
 
     let BASE_URL=process.env.REACT_APP_BE_API_URL ;
+    console.log("BASE_URL =", BASE_URL);
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -33,7 +34,7 @@ function RegisterPage() {
             name,
             email,
             number,
-            password,
+            password
         }
 
         try{

@@ -1,0 +1,54 @@
+.navBar{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 4px rgb(160, 160, 160);
+    /* margin-top: 10px; */
+    border-radius: 20px;
+    padding: 0px 20px;
+
+}
+
+.logo{
+    width:70px;
+}
+
+.logoContainer{
+    display: flex;
+    gap: 5px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    background-color: #141A98;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nameContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dropDownContainer{
+    width: 200px;
+    border: 2px solid black;
+}
+.logoutBtn{
+     background-color: white;
+     border: none;
+     color: red;
+     padding: 0px;
+     font-size: inherit;
+}
+.logoutContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center; 
+    color: red;
+    font-size: 1rem;
+}

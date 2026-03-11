@@ -1,8 +1,13 @@
 import React from 'react'
+import Header from './landingPage/Header'
+
+
 
 function AdminDashboard() {
   return (
-    <div>AdminDashboard</div>
+    <div>
+        < Header/>
+      </div>
   )
 }
 
